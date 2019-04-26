@@ -5,7 +5,7 @@ The determinant of a matrix is a scalar quantity that holds information about th
 inverse of the matrix. If the determinant of the matrix is 0, then that matrix is not invertable. A non square matrix does
 not have a determinant. 
 
-[a][b]
+[a][b] \n
 [c][d]
 
 The algorithm for calculating the determinant of the 2x2 matrix above is a*d-b*c. This rule that give this equation is:
@@ -23,7 +23,7 @@ This is done for each step by making a matrix of one size smaller than the curre
 determinant and then multiplying that my the number in matrix[0][i] and its appropriate exponent of -1 which for all even 
 numbers i will equal 1 and for all odd number i will equal -1. this follows the pattern for any square matrix: 
 
-[1][-1][1][-1]
-[-1][1][-1][1]
-[1][-1][1][-1]
-[-1][1][-1][1]
+[1][-1][1][-1] \n
+[-1][1][-1][1]  \n
+[1][-1][1][-1]  \n
+[-1][1][-1][1]  \n
